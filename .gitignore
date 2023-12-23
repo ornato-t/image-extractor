@@ -1,2 +1,7 @@
+# Project files
+output.json
+/cropped_images
+
+# Python stuff
 .venv
 __pycache__/
