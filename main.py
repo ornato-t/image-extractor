@@ -13,12 +13,12 @@ DIR_TO_SAVE = "cropped_images"
 DIR_TO_CHECK = "to_check"
 INDEX = .95
 
-PRINT = False
+PRINT = True
 
 
 img = plt.imread( FILE )
 img_new = np.empty( img.shape )
-print("Dimensione in pixel:", len(img), len(img[0]) )
+print("Canvas size [px]:", len(img), len(img[0]) )
 
 
 image = cv2.imread(FILE)
